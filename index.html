@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>web page design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="main">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="service.html">SERVICES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Kamunath Investments limited</h1>
+            <p>Making a website is now becoming the easiest thing in the world of computing. <br>
+                 You just need to learn html, css, javascript and you are good to go.</p>
+             <a href="www.kamunath.com" class="hero-btn">Visit us to know more</a>
+        </div>  
+        </section>
+       
+        <!--Course -->
+        <section class="course">
+            <h1>CORE VALUES</h1>
+            <h3>Agility:</h3>
+            <p>We shall practice responsiveness by continuously evolving, promptly changing or adapting our best 
+                practices to successfully deliver revenue services in a dynamic business environment.</p>
+            <h3>Integrity:</h3>
+            <p>We shall serve with accountability, transparency, trust, honesty and consistency in all we do.</p>
+            <h3>Excellence:</h3>
+            <p>Excellence in service, client care, image and presentation; we continuously strive to offer a better
+                service today than we did yesterday with an aim of exceeding client expectations in Freight logistics 
+                and customs services.</p>
+            <h3>Confidentiality:</h3>
+            <p>We restrict access of information to authorized user only.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <img src="three.jpg">
+                    <h3>Our mission</h3>
+                    <p>To provide an Environment that Delivers a Delightful Experience in International Freight 
+                        logistics and customs services.</p>
+                </div>
+                <div class="course-col">
+                    <img src="two.jpg">
+                    <h3>Our vision</h3>
+                    <p>To be the center of excellence and innovation in freight forwarding internationally.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <img src="one.jpg">
+                    <h3>Associations and Affliations</h3>
+                    <p>Kamunath Investments limited, is a member of Uganda Clearing and Forwarding Agent 
+                        Association (UCIFA) a National Association of Forwarding Agents.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--committment-->
+        <section class="committment">
+            <div class="row">
+                <div class="customer">
+                    <h1>OUR COMMITTMENT</h1>
+                    <h3>To Our Customers</h3>
+                    <p>We committed to provide the highest level of quality services to our clientele. We aim at being the 
+                        best in the freight forwarding industry by providing unsurpassed personalized customer service 
+                        at reasonable pricing.</p>
+
+                    <h3>To Our Partners</h3>
+                    <p>We are committed to building long - term business relationships and continue to seek opportunities 
+                        to further develop and expand our range of services .Your partnership with Kamunath Investments 
+                        limited will always serve to enhance your business in the near term as well as further develop your 
+                        business in the long term .
+                        </p>
+                </div>
+                <div class="customer">
+                    <img src="working.jpg">
+                </div>
+            </div>
+        </section>
+
+
+<!--------Javascript for Toggle menu------->
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+        
+    </body> 
+
+     <!--footer-->
+     <section class="footer">
+        <h4>KAMUNATH INVESTMENTS LIMITED DIRECTORS</h4>
+        <p>Mrs. ASHABA EMMA<br>
+           MR. AHABWE BRUCE</p>
+        <h4>Contact Us</h4>
+        <p>Contact us today for more Information or quotation; we are always ready to help you;</p>
+        <p><b>HEAD OFFICE</b><br>
+            Martyrs Mall, Kyaliwajala along, Kira Rd, Kampala, Uganda<br>
+            P.O. BOX 14654, Kireka, Kampala<br>
+            info@kamunath.com<br>
+            www.kamunath.com<br>
+            Tel. +256771417423  Tel. +256704836261
+           </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by vizie</p>
+    </section>   
+</html>
